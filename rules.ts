@@ -1,45 +1,5 @@
 export const rulesData = [
   {
-    id: "evenements",
-    title: "VI. Événements et Activités Communautaires",
-    icon: { type: 'fa', name: 'calendar-alt', prefix: 'fas' },
-    gradient: "from-pink-500/20 to-rose-500/20",
-    borderColor: "border-pink-500/30",
-    content: `
-      <h4 class="font-semibold mb-2">1. Événements officiels</h4>
-      <p class="mb-4">Le staff organise régulièrement des événements thématiques pour dynamiser la vie de la ville :</p>
-      <ul class="list-disc list-inside space-y-1 mb-4">
-      <li>Élections municipales (tous les 3 mois)</li>
-      <li>Festivals saisonniers (été, Halloween, Noël, etc.)</li>
-      <li>Compétitions sportives (courses automobiles, tournois de boxe)</li>
-      <li>Soirées à thème dans les établissements de nuit</li>
-      </ul>
-      <h4 class="font-semibold mb-2">2. Événements communautaires</h4>
-      <p class="mb-2">Les joueurs sont encouragés à organiser leurs propres événements pour enrichir l'expérience RP :</p>
-      <div class="bg-card border border-border rounded-lg p-4 mb-4">
-      <h5 class="font-medium mb-2">Comment organiser un événement :</h5>
-      <ol class="text-sm space-y-1 list-decimal list-inside">
-      <li>Soumettre une proposition au staff via le Discord</li>
-      <li>Obtenir les autorisations nécessaires en RP (mairie, LSPD)</li>
-      <li>Promouvoir l'événement via les médias de la ville</li>
-      <li>Respecter les règles du serveur pendant l'événement</li>
-      </ol>
-      </div>
-      <h4 class="font-semibold mb-2">3. Récompenses et participation</h4>
-      <p class="mb-2">La participation active aux événements est valorisée et récompensée :</p>
-      <ul class="list-disc list-inside space-y-1">
-      <li>Récompenses financières pour les gagnants de compétitions</li>
-      <li>Objets exclusifs et cosmétiques uniques</li>
-      <li>Points de réputation augmentant votre influence dans la ville</li>
-      <li>Possibilité d'accéder à des zones ou activités exclusives</li>
-      </ul>
-      <div class="bg-primary/10 border border-primary/20 rounded-lg p-4 mt-4">
-      <h5 class="font-medium mb-2">Note importante :</h5>
-      <p class="text-sm">Les événements sont des moments privilégiés où la créativité et l'implication RP sont particulièrement encouragées. Ils constituent une excellente occasion de développer votre personnage et de créer des liens avec d'autres joueurs.</p>
-      </div>
-    `,
-  },
-  {
     id: "preambule",
     title: "Préambule : L'Esprit du Roleplay",
     icon: { type: 'fa', name: 'book-open', prefix: 'fas' },
@@ -226,6 +186,46 @@ export const rulesData = [
       <h4 class="font-semibold mb-2">2. Préparation de scènes complexes</h4>
       <p class="mb-2">Pour toute scène d'envergure (braquage de grande banque, événement de faction, etc.), les joueurs sont encouragés à contacter le Bureau Administratif du staff.</p>
       <p>Il est autorisé de préparer ces scènes en HRP avec l'aide d'un ou de plusieurs membres du staff.</p>
+    `,
+  },
+  {
+    id: "evenements",
+    title: "VI. Événements et Activités Communautaires",
+    icon: { type: 'fa', name: 'calendar-alt', prefix: 'fas' },
+    gradient: "from-pink-500/20 to-rose-500/20",
+    borderColor: "border-pink-500/30",
+    content: `
+      <h4 class="font-semibold mb-2">1. Événements officiels</h4>
+      <p class="mb-4">Le staff organise régulièrement des événements thématiques pour dynamiser la vie de la ville :</p>
+      <ul class="list-disc list-inside space-y-1 mb-4">
+      <li>Élections municipales (tous les 3 mois)</li>
+      <li>Festivals saisonniers (été, Halloween, Noël, etc.)</li>
+      <li>Compétitions sportives (courses automobiles, tournois de boxe)</li>
+      <li>Soirées à thème dans les établissements de nuit</li>
+      </ul>
+      <h4 class="font-semibold mb-2">2. Événements communautaires</h4>
+      <p class="mb-2">Les joueurs sont encouragés à organiser leurs propres événements pour enrichir l'expérience RP :</p>
+      <div class="bg-card border border-border rounded-lg p-4 mb-4">
+      <h5 class="font-medium mb-2">Comment organiser un événement :</h5>
+      <ol class="text-sm space-y-1 list-decimal list-inside">
+      <li>Soumettre une proposition au staff via le Discord</li>
+      <li>Obtenir les autorisations nécessaires en RP (mairie, LSPD)</li>
+      <li>Promouvoir l'événement via les médias de la ville</li>
+      <li>Respecter les règles du serveur pendant l'événement</li>
+      </ol>
+      </div>
+      <h4 class="font-semibold mb-2">3. Récompenses et participation</h4>
+      <p class="mb-2">La participation active aux événements est valorisée et récompensée :</p>
+      <ul class="list-disc list-inside space-y-1">
+      <li>Récompenses financières pour les gagnants de compétitions</li>
+      <li>Objets exclusifs et cosmétiques uniques</li>
+      <li>Points de réputation augmentant votre influence dans la ville</li>
+      <li>Possibilité d'accéder à des zones ou activités exclusives</li>
+      </ul>
+      <div class="bg-primary/10 border border-primary/20 rounded-lg p-4 mt-4">
+      <h5 class="font-medium mb-2">Note importante :</h5>
+      <p class="text-sm">Les événements sont des moments privilégiés où la créativité et l'implication RP sont particulièrement encouragées. Ils constituent une excellente occasion de développer votre personnage et de créer des liens avec d'autres joueurs.</p>
+      </div>
     `,
   },
   {
