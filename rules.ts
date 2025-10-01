@@ -1,7 +1,7 @@
 export const rulesData = [
   {
     id: "preambule",
-    title: "Préambule : L'Esprit du Roleplay",
+    title: "Préambule : L'Esprit du Roleplay TEST commit",
     icon: { type: 'fa', name: 'book-open', prefix: 'fas' },
     gradient: "from-blue-500/20 to-cyan-500/20",
     borderColor: "border-blue-500/30",
