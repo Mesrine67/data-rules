@@ -28,6 +28,69 @@ export const rulesData = [
     `,
   },
   {
+    id: "staff-rp",
+    title: "I.bis. Séparation Staff/RP et Conflits d'Intérêts",
+    icon: { type: 'fa', name: 'user-shield', prefix: 'fas' },
+    gradient: "from-indigo-500/20 to-purple-500/20",
+    borderColor: "border-indigo-500/30",
+    content: `
+      <h4 class="font-semibold mb-2">1. Principe de séparation</h4>
+      <p class="mb-4">Pour garantir l'impartialité de la gestion du serveur et éviter tout conflit d'intérêt, certains rôles staff sont incompatibles avec certains personnages RP.</p>
+      
+      <h4 class="font-semibold mb-2">2. Règles par rôle staff</h4>
+      <div class="overflow-x-auto mb-4">
+        <table class="w-full text-sm border-collapse">
+          <thead>
+            <tr class="bg-card border-b border-border">
+              <th class="text-left p-3 font-semibold">Rôle Staff</th>
+              <th class="text-left p-3 font-semibold">Persos RP Compatibles</th>
+              <th class="text-left p-3 font-semibold">Persos RP Incompatibles</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-border">
+              <td class="p-3"><strong>Admin Responsable Illégal</strong></td>
+              <td class="p-3 text-green-500">✅ Civil, Entreprise légale</td>
+              <td class="p-3 text-destructive">❌ Flic, EMS, Justice</td>
+            </tr>
+            <tr class="border-b border-border">
+              <td class="p-3"><strong>Admin Responsable Légal/Police</strong></td>
+              <td class="p-3 text-green-500">✅ Civil, Flic</td>
+              <td class="p-3 text-destructive">❌ Gang, Orga illégale</td>
+            </tr>
+            <tr class="border-b border-border">
+              <td class="p-3"><strong>Admin Neutre</strong></td>
+              <td class="p-3 text-green-500">✅ Tous les personnages</td>
+              <td class="p-3 text-green-500">✅ Aucune restriction</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+      <h4 class="font-semibold mb-2">3. Justification</h4>
+      <div class="bg-card border border-border rounded-lg p-4 mb-4">
+        <h5 class="font-medium mb-2">Pourquoi ces restrictions ?</h5>
+        <ul class="text-sm space-y-2">
+          <li><strong>• Accès aux informations sensibles :</strong> Un admin illégal connaît les planques, membres et projets des gangs. Jouer un flic créerait un métagaming inévitable.</li>
+          <li><strong>• Conflit d'intérêt :</strong> Impossible de rester objectif quand son personnage RP est directement impacté par ses décisions staff.</li>
+          <li><strong>• Crédibilité :</strong> Les joueurs doivent pouvoir faire confiance à l'impartialité du staff.</li>
+          <li><strong>• Équité :</strong> Garantir que personne n'a d'avantage déloyal grâce à son rôle staff.</li>
+        </ul>
+      </div>
+      
+      <div class="bg-destructive/10 border border-destructive/20 rounded-lg p-4">
+        <h5 class="font-medium mb-2">⚠️ Obligation de choix</h5>
+        <p class="text-sm mb-2">Si un membre du staff souhaite changer de responsabilité (ex: passer d'admin neutre à admin illégal), il devra :</p>
+        <ul class="text-sm space-y-1">
+          <li>1. Informer le Bureau Administratif</li>
+          <li>2. Supprimer ou transférer tout personnage incompatible</li>
+          <li>3. Attendre validation avant d'exercer ses nouvelles fonctions</li>
+        </ul>
+        <p class="text-sm mt-3"><strong>Sanction :</strong> Le non-respect de cette règle entraînera un retrait immédiat du rôle staff et des sanctions pouvant aller jusqu'au bannissement définitif.</p>
+      </div>
+    `,
+  },
+  {
     id: "legal",
     title: "II. Règlement légal (Vie politique, entreprises et conduite civile)",
     icon: { type: 'fa', name: 'balance-scale', prefix: 'fas' },
