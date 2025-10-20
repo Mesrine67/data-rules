@@ -1,4 +1,13 @@
-export const rulesData = [
+interface RulesData {
+  id: string;
+  title: string;
+  icon: { type: string; name: string; prefix: string };
+  gradient: string;
+  borderColor: string;
+  content: string;
+}
+
+const rulesData: RulesData[] = [
   {
     id: "preambule",
     title: "Préambule : L'Esprit du Roleplay TEST commit",
@@ -336,3 +345,5 @@ export const rulesData = [
     `,
   },
 ]
+export type { RulesData }
+export default rulesData
